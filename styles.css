@@ -1,0 +1,348 @@
+/* Headings */
+
+h1 {
+  font-family: "Bebas Neue", cursive;
+  font-weight: 600;
+  letter-spacing: 5px;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  padding-top: 5%;
+  font-size: 1.5rem;
+}
+
+iframe {
+  width: 85%;
+}
+.motion-title {
+  font-size: 4rem;
+}
+
+/* Navigation and heading*/
+
+#title {
+  text-align: left;
+  padding-top: 5%;
+}
+
+#scroll-part {
+  text-align: center;
+}
+
+/* Section */
+
+.image-section {
+  background-image: url("img/FOND.png");
+  background-size: 100%;
+}
+
+.animated-text {
+  width: 70%;
+  margin: 7% 15%;
+}
+
+/* Navigation Bar */
+
+.navbar-brand {
+  padding-left: 55px;
+}
+
+.navbar {
+  background-color: #fff;
+}
+.nav-item {
+  padding: 0 65px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.scroll-image {
+  width: 20%;
+}
+
+.cat-image {
+  /*transform: rotate(25deg);*/
+  position: relative;
+  width: 80%;
+  padding-top: 40%;
+  left: 5%;
+}
+
+#projects {
+  text-align: center;
+}
+
+.projects-title {
+  margin: 5% 0;
+}
+
+.menu-row {
+  /* display: flex; */
+  /* justify-content: space-around; */
+  /* padding: 2%; */
+  padding-left: 7%;
+  align-items: center;
+}
+
+.menu-box {
+  position: relative;
+  transition: 0.6s ease-out;
+  padding: 0%;
+  /* display: flex; */
+  /* align-items: flex-end; */
+}
+
+.menu-box:hover {
+  transform: translateY(10px);
+}
+
+.menu-box:hover:before {
+  opacity: 1;
+}
+
+.menu-box:hover .card-menu {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.menu-box::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* display: block; */
+  width: 90%;
+  height: 90%;
+  z-index: 2;
+  transition: 0.5s;
+  opacity: 0;
+}
+
+.menu-box img {
+  width: 90%;
+  height: 90%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* object-fit: cover; */
+}
+
+.menu-box .card-menu {
+  position: relative;
+  z-index: 3;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: 0.5s;
+}
+
+.card-menu a {
+  width: 384px;
+  height: 216px;
+  display: inline-block;
+}
+
+#footer {
+  margin-top: 7%;
+  text-align: center;
+  padding: 7%;
+  background-color: #000;
+}
+
+.social-media-icon {
+  margin: 3% 0.5%;
+}
+
+.social-media-icon:hover {
+  color: #fff;
+}
+
+
+#video-section{
+  padding: 7% 15%;
+}
+
+#process{
+  padding: 7% 15%;
+}
+
+#story-board{
+  padding: 7% 15%;
+}
+
+.title-pages{
+  font-size: 4.5rem;
+}
+
+.title-text{
+  padding: 10% 22%;
+  /* background-image: url("img/fond-1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; */
+}
+
+.title-text-3{
+  padding: 15% 22%;
+  /* background-image: url("img/fond-1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; */
+}
+
+.title-text-5{
+  padding: 12% 22%;
+  /* background-image: url("img/fond-1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; */
+}
+
+.container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+/* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.img-proccess-1{
+  width: 100%;
+}
+
+.little-text{
+  font-size: 0.9rem;
+}
+
+.image-section-2{
+  background-image: url("img/fond-2.png");
+  color: #fff;
+  background-size: 100%;
+}
+
+.image-section-3{
+  background-image: url("img/fond-3-.png");
+  color: #fff;
+  background-size: 100%;
+}
+
+.image-section-5{
+  background-image: url("img/fond-5.png");
+  color: #fff;
+  background-size: 100%;
+}
+
+
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+    padding-top: 25%;
+  }
+
+  .animated-text {
+    margin: 2% 15%;
+  }
+
+  .cat-image {
+    position: static;
+    padding-top: 0%;
+  }
+
+  .image-section {
+    background-size: 280%;
+  }
+
+  .image-section-2 {
+    background-size: 280%;
+  }
+  .menu-icon {
+    width: 30%;
+    padding: 0;
+  }
+
+  .scroll-image {
+    width: 40%;
+  }
+  .navbar-brand {
+    padding-left: 5px;
+    width: 50%;
+  }
+
+  p{
+    font-size: 1rem;
+    text-align: left;
+  }
+  .title-pages{
+    font-size: 2rem;
+  }
+
+  .little-text{
+    font-size: 0.2rem;
+  }
+  
+  /* .top-left {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+  }
+
+  .bauhaus-img {
+    display: none;
+  }
+
+  .text-on-img {
+    padding: 32% 10% 0 0;
+    text-align: justify;
+    font-size: 0.85rem;
+  }
+
+  .title-pages {
+    padding: 15% 15% 0 0;
+    text-align: justify;
+    font-size: 2rem;
+  }
+   */
+}
+
+
+/* .top-left {
+  position: absolute;
+  top: 18%;
+  left: 20%;
+}
+
+.bauhaus-img {
+  width: 100%;
+}
+
+.text-on-img {
+  padding: 10% 20% 0 0;
+  text-align: justify;
+  font-size: 1.4rem;
+}
+
+.title-pages {
+  font-size: 3.8rem;
+}
+
+#video-section {
+  padding-left: 20%;
+} */
