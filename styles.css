@@ -157,7 +157,7 @@ iframe {
 }
 
 .social-media-icon {
-  margin: 3% 0.5%;
+  margin: 2% 0.5%;
 }
 
 .social-media-icon:hover {
@@ -177,8 +177,22 @@ iframe {
   padding: 7% 15%;
 }
 
+#cards-blood-donnation{
+  padding: 7% 15%;
+}
+
+#missing-type{
+  padding: 5% 15%;
+  background-color: #b2bec3;
+}
+
+#only-text{
+  padding: 5% 15%;
+}
+
+
 .title-pages{
-  font-size: 4.5rem;
+  font-size: 4rem;
 }
 
 .title-text{
@@ -191,6 +205,15 @@ iframe {
 
 .title-text-3{
   padding: 15% 22%;
+  /* background-image: url("img/fond-1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; */
+}
+
+
+.title-text-4{
+  padding: 12% 15%;
   /* background-image: url("img/fond-1.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -223,6 +246,12 @@ iframe {
   height: 100%;
 }
 
+
+.heart-image{
+  padding-right: 2%;
+}
+
+
 .img-proccess-1{
   width: 100%;
 }
@@ -249,6 +278,28 @@ iframe {
   background-size: 100%;
 }
 
+.blood-gifs{
+  width: 95%;
+  padding-bottom: 12%;
+}
+
+.blood-gifs-2{
+  width: 93.5%;
+}
+
+
+.large-low-text{
+  font-size: 2.8rem;
+}
+
+.cards-padding{
+  padding: 0;
+}
+
+#grey-section{
+  background-color: #b2bec3;
+  padding: 5% 0;
+}
 
 
 @media (max-width: 1028px) {
@@ -297,7 +348,18 @@ iframe {
   .little-text{
     font-size: 0.2rem;
   }
+
+  .heart-image{
+    width: 30%;
+  }
   
+  .large-low-text{
+    font-size: 1.5rem;
+  }
+
+  .cards-padding{
+    padding: 2% 2%;
+  }
   /* .top-left {
     position: absolute;
     top: 10%;
