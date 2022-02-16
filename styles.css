@@ -19,6 +19,13 @@ p {
 iframe {
   width: 85%;
 }
+
+
+a {
+  color: inherit;
+  font-size: 0.6rem;
+}
+
 .motion-title {
   font-size: 4rem;
 }
@@ -55,6 +62,16 @@ iframe {
 .navbar {
   background-color: #fff;
 }
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
 .nav-item {
   padding: 0 65px;
 }
@@ -152,50 +169,47 @@ iframe {
 #footer {
   margin-top: 7%;
   text-align: center;
-  padding: 7%;
+  padding: 7% 0 1% 0;
   background-color: #000;
 }
 
-.social-media-icon {
-  margin: 2% 0.5%;
-}
 
 .social-media-icon:hover {
   color: #fff;
 }
 
 
-#video-section{
+#video-section {
   padding: 7% 15%;
 }
 
-#process{
+#process {
   padding: 7% 15%;
 }
 
-#story-board{
+#story-board {
   padding: 7% 15%;
 }
 
-#cards-blood-donnation{
+#cards-blood-donnation {
   padding: 7% 15%;
 }
 
-#missing-type{
+#missing-type {
   padding: 5% 15%;
   background-color: #b2bec3;
 }
 
-#only-text{
+#only-text {
   padding: 5% 15%;
 }
 
 
-.title-pages{
+.title-pages {
   font-size: 4rem;
 }
 
-.title-text{
+.title-text {
   padding: 10% 22%;
   /* background-image: url("img/fond-1.png");
   background-repeat: no-repeat;
@@ -203,7 +217,7 @@ iframe {
   background-position: center; */
 }
 
-.title-text-3{
+.title-text-3 {
   padding: 15% 22%;
   /* background-image: url("img/fond-1.png");
   background-repeat: no-repeat;
@@ -212,7 +226,7 @@ iframe {
 }
 
 
-.title-text-4{
+.title-text-4 {
   padding: 12% 15%;
   /* background-image: url("img/fond-1.png");
   background-repeat: no-repeat;
@@ -220,7 +234,7 @@ iframe {
   background-position: center; */
 }
 
-.title-text-5{
+.title-text-5 {
   padding: 12% 22%;
   /* background-image: url("img/fond-1.png");
   background-repeat: no-repeat;
@@ -232,7 +246,8 @@ iframe {
   position: relative;
   overflow: hidden;
   width: 100%;
-  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+  padding-top: 56.25%;
+  /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
 }
 
 /* Then style the iframe to fit in the container div with full height and width */
@@ -247,60 +262,104 @@ iframe {
 }
 
 
-.heart-image{
+.heart-image {
   padding-right: 2%;
 }
 
 
-.img-proccess-1{
+.img-proccess-1 {
   width: 100%;
 }
 
-.little-text{
+.little-text {
   font-size: 0.9rem;
 }
 
-.image-section-2{
+.image-section-2 {
   background-image: url("img/fond-2.png");
   color: #fff;
   background-size: 100%;
 }
 
-.image-section-3{
+.image-section-3 {
   background-image: url("img/fond-3-.png");
   color: #fff;
   background-size: 100%;
 }
 
-.image-section-5{
+.image-section-5 {
   background-image: url("img/fond-5.png");
   color: #fff;
   background-size: 100%;
 }
 
-.blood-gifs{
+.blood-gifs {
   width: 95%;
   padding-bottom: 12%;
 }
 
-.blood-gifs-2{
+.blood-gifs-2 {
   width: 93.5%;
 }
 
 
-.large-low-text{
+.large-low-text {
   font-size: 2.8rem;
 }
 
-.cards-padding{
+.cards-padding {
   padding: 0;
 }
 
-#grey-section{
+
+#grey-section {
   background-color: #b2bec3;
   padding: 5% 0;
 }
 
+
+.copy-right{
+  padding-top: 2%;
+  font-size: 1rem;
+}
+
+.white-signature{
+  padding-bottom: 2%;
+}
+
+.rooftop-menu{
+  width: 73.5%;
+}
+
+.rooftop-menu-2{
+  width: 100%;
+  padding-top: 12%;
+}
+
+#grey-dark-section{
+  text-align: center;
+  background-color: #53555b;
+}
+
+#beige-section{
+  text-align: center;
+  background-color: #ddcda6;
+}
+
+#green-section{
+  text-align: center;
+  background-color: #ACB992;
+}
+
+.botanika-img{
+  padding-bottom: 12%;
+  width: 100%;
+}
+
+.botanika-img-2{
+  width: 71%;
+  padding: 10% 0;
+}
 
 @media (max-width: 1028px) {
   #title {
@@ -324,42 +383,61 @@ iframe {
   .image-section-2 {
     background-size: 280%;
   }
+
   .menu-icon {
     width: 30%;
-    padding: 0;
   }
 
   .scroll-image {
     width: 40%;
   }
+
   .navbar-brand {
     padding-left: 5px;
     width: 50%;
   }
 
-  p{
+  p {
     font-size: 1rem;
     text-align: left;
   }
-  .title-pages{
+
+  .copy-right{
+    text-align: center;
+    padding: 0;
+    font-size: 1rem;
+  }
+
+  .title-pages {
     font-size: 2rem;
   }
 
-  .little-text{
+  .little-text {
     font-size: 0.2rem;
   }
 
-  .heart-image{
+  .heart-image {
     width: 30%;
   }
-  
-  .large-low-text{
+
+  .large-low-text {
     font-size: 1.5rem;
   }
 
-  .cards-padding{
+  .cards-padding {
     padding: 2% 2%;
   }
+
+  .social-media-icon {
+    font-size: 1rem;
+    padding-bottom: 2%;
+
+  }
+
+  .white-signature {
+    width: 50%;
+  }
+
   /* .top-left {
     position: absolute;
     top: 10%;
