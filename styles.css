@@ -331,6 +331,10 @@ a {
   width: 73.5%;
 }
 
+.print-menu{
+  width: 100%;
+}
+
 .rooftop-menu-2{
   width: 100%;
   padding-top: 12%;
@@ -358,6 +362,11 @@ a {
 
 .botanika-img-2{
   width: 71%;
+  padding: 10% 0;
+}
+
+.botanika-img-3{
+  width: 100%;
   padding: 10% 0;
 }
 
