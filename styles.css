@@ -4,6 +4,7 @@ h1 {
   font-family: "Bebas Neue", cursive;
   font-weight: 600;
   letter-spacing: 5px;
+  font-size: 4rem;
 }
 
 h2 {
@@ -20,11 +21,11 @@ iframe {
   width: 85%;
 }
 
-
 a {
   color: inherit;
   font-size: 0.6rem;
 }
+
 
 .motion-title {
   font-size: 4rem;
@@ -56,9 +57,8 @@ a {
 /* Navigation Bar */
 
 .navbar-brand {
-  padding-left: 55px;
+  padding-left: 75px;
 }
-
 .navbar {
   background-color: #fff;
 }
@@ -99,6 +99,10 @@ a {
 
 .projects-title {
   margin: 5% 0;
+}
+
+.cards-separation{
+  margin-left: 6%;
 }
 
 .menu-row {
@@ -167,7 +171,6 @@ a {
 }
 
 #footer {
-  margin-top: 7%;
   text-align: center;
   padding: 7% 0 1% 0;
   background-color: #000;
@@ -179,68 +182,21 @@ a {
 }
 
 
-#video-section {
-  padding: 7% 15%;
-}
-
 #process {
   padding: 7% 15%;
 }
 
-#story-board {
-  padding: 7% 15%;
+#process-dark {
+  padding: 7% 15% 0 15%;
+  background-color: #000;
+  color: #fff;
 }
 
-#cards-blood-donnation {
-  padding: 7% 15%;
-}
-
-#missing-type {
-  padding: 5% 15%;
-  background-color: #b2bec3;
-}
-
-#only-text {
-  padding: 5% 15%;
-}
-
-
-.title-pages {
-  font-size: 4rem;
-}
 
 .title-text {
-  padding: 10% 22%;
-  /* background-image: url("img/fond-1.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center; */
+  padding: 10% 15%;
 }
 
-.title-text-3 {
-  padding: 15% 22%;
-  /* background-image: url("img/fond-1.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center; */
-}
-
-
-.title-text-4 {
-  padding: 12% 15%;
-  /* background-image: url("img/fond-1.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center; */
-}
-
-.title-text-5 {
-  padding: 12% 22%;
-  /* background-image: url("img/fond-1.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center; */
-}
 
 .container {
   position: relative;
@@ -271,6 +227,21 @@ a {
   width: 100%;
 }
 
+
+#process .container-fluid{
+  padding: 0;
+  margin-top: 15%;
+}
+
+
+#beige-section .container-fluid{
+  padding: 0;
+}
+
+#grey-dark-section .container-fluid{
+  padding: 0;
+}
+
 .little-text {
   font-size: 0.9rem;
 }
@@ -294,8 +265,12 @@ a {
 }
 
 .blood-gifs {
-  width: 95%;
+  width: 100%;
   padding-bottom: 12%;
+}
+
+.blood-gifs-big{
+  width: 85%;
 }
 
 .blood-gifs-2 {
@@ -303,18 +278,9 @@ a {
 }
 
 
-.large-low-text {
-  font-size: 2.8rem;
-}
-
-.cards-padding {
-  padding: 0;
-}
-
-
 #grey-section {
   background-color: #b2bec3;
-  padding: 5% 0;
+  padding: 7% 15%;
 }
 
 
@@ -327,27 +293,19 @@ a {
   padding-bottom: 2%;
 }
 
-.rooftop-menu{
-  width: 73.5%;
-}
-
 .print-menu{
   width: 100%;
 }
 
-.rooftop-menu-2{
-  width: 100%;
-  padding-top: 12%;
-}
 
 #grey-dark-section{
-  text-align: center;
   background-color: #53555b;
+  padding: 7% 15%;
 }
 
 #beige-section{
-  text-align: center;
   background-color: #ddcda6;
+  padding: 7% 15%;
 }
 
 #green-section{
@@ -365,10 +323,6 @@ a {
   padding: 10% 0;
 }
 
-.botanika-img-3{
-  width: 100%;
-  padding: 10% 0;
-}
 
 @media (max-width: 1028px) {
   #title {
@@ -394,7 +348,8 @@ a {
   }
 
   .menu-icon {
-    width: 30%;
+    width: 40%;
+    margin-left: 70px;
   }
 
   .scroll-image {
@@ -403,7 +358,7 @@ a {
 
   .navbar-brand {
     padding-left: 5px;
-    width: 50%;
+    width: 35%;
   }
 
   p {
@@ -417,7 +372,7 @@ a {
     font-size: 1rem;
   }
 
-  .title-pages {
+  h1 {
     font-size: 2rem;
   }
 
@@ -429,69 +384,22 @@ a {
     width: 30%;
   }
 
-  .large-low-text {
-    font-size: 1.5rem;
+  .cards-separation{
+    margin-top: 8%;
+    margin-left: 0;
   }
-
-  .cards-padding {
-    padding: 2% 2%;
+  .blood-gifs-big{
+    margin-bottom: 7%;
   }
 
   .social-media-icon {
     font-size: 1rem;
     padding-bottom: 2%;
-
   }
 
   .white-signature {
     width: 50%;
   }
 
-  /* .top-left {
-    position: absolute;
-    top: 10%;
-    left: 10%;
-  }
 
-  .bauhaus-img {
-    display: none;
-  }
-
-  .text-on-img {
-    padding: 32% 10% 0 0;
-    text-align: justify;
-    font-size: 0.85rem;
-  }
-
-  .title-pages {
-    padding: 15% 15% 0 0;
-    text-align: justify;
-    font-size: 2rem;
-  }
-   */
 }
-
-
-/* .top-left {
-  position: absolute;
-  top: 18%;
-  left: 20%;
-}
-
-.bauhaus-img {
-  width: 100%;
-}
-
-.text-on-img {
-  padding: 10% 20% 0 0;
-  text-align: justify;
-  font-size: 1.4rem;
-}
-
-.title-pages {
-  font-size: 3.8rem;
-}
-
-#video-section {
-  padding-left: 20%;
-} */
