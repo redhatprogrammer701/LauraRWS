@@ -11,10 +11,23 @@ h2 {
   font-family: "Roboto", sans-serif;
 }
 
+h3{
+  font-family: "Bebas Neue", cursive;
+  font-weight: 500;
+  font-size: 2.5rem;
+
+}
+
 p {
   font-family: "Roboto", sans-serif;
   padding-top: 5%;
   font-size: 1.5rem;
+}
+
+.about-text{
+  font-family: "Roboto", sans-serif;
+  padding-top: 2%;
+  font-size: 1.2rem;
 }
 
 iframe {
@@ -26,6 +39,12 @@ a {
   font-size: 0.6rem;
 }
 
+.dropdown-item{
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  background-color: #000;
+  color: #fff;
+}
 
 .motion-title {
   font-size: 4rem;
@@ -37,11 +56,6 @@ a {
   text-align: left;
   padding-top: 5%;
 }
-
-#scroll-part {
-  text-align: center;
-}
-
 /* Section */
 
 .image-section {
@@ -94,6 +108,16 @@ a {
 }
 
 #projects {
+  text-align: center;
+}
+#motion-projects {
+  text-align: center;
+}
+#graphic-design {
+  text-align: center;
+  margin: 12% 0;
+}
+#photographie {
   text-align: center;
 }
 
@@ -313,6 +337,12 @@ a {
   background-color: #ACB992;
 }
 
+#about{
+  padding: 7% 7%;
+}
+
+
+
 .botanika-img{
   padding-bottom: 12%;
   width: 100%;
@@ -322,7 +352,9 @@ a {
   width: 71%;
   padding: 10% 0;
 }
-
+.about-title{
+  text-align: center;
+}
 
 @media (max-width: 1028px) {
   #title {

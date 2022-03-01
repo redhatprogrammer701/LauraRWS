@@ -43,16 +43,22 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#motion-projects">Motion Graphics</a>
+                            <a class="dropdown-item" href="#graphic-design">Graphic Design</a>
+                            <a class="dropdown-item" href="#photographie">Photographie</a>
+                        </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Projects</a>
+                        <a class="nav-link" href="#footer">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Blog</a>
+                        <a class="nav-link" href="404.html">Blog</a>
                     </li>
                 </ul>
             </div>
@@ -71,11 +77,11 @@
         </div>
     </section>
 
-    <section id="scroll-part">
+    <section id="motion-projects">
+        <!--! Motion Projects -->
         <img class="scroll-image" src="img/scroll.png" alt="scroll-image" />
-    </section>
 
-    <section id="projects">
+
         <div class="container-fluid projects-title">
             <div class="row">
                 <div class="col-lg-12">
@@ -86,7 +92,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h1 class="motion-title">MOTION <br /></h1>
-                    <h2>PROJECTS</h2>
+                    <h2>GRAPHICS</h2>
                 </div>
             </div>
         </div>
@@ -138,7 +144,10 @@
                 </div>
             </div>
         </div>
+    </section>
 
+    <section id="graphic-design">
+        <!--! Graphic design  -->
         <div class="container-fluid projects-title">
             <div class="row">
                 <div class="col-lg-12">
@@ -201,7 +210,10 @@
                 </div>
             </div>
         </div>
+    </section>
 
+    <section id="photographie">
+        <!--! Photographie -->
         <div class="container-fluid projects-title">
             <div class="row">
                 <div class="col-lg-12">
@@ -251,20 +263,50 @@
                 <div class="col-lg-4 menu-box">
                     <img src="img/MENU-PHOTO-5.png" alt="" />
                     <div class="card-menu">
-                        <a href="ux.html"><img src="img/MENU-PHOTO-5-.png" alt="" /> </a>
+                        <a href="events.html"><img src="img/MENU-PHOTO-5-.png" alt="" /> </a>
                     </div>
                 </div>
 
                 <div class="col-lg-4 menu-box">
                     <img src="img/MENU-PHOTO-6.png" alt="" />
                     <div class="card-menu">
-                        <a href="#"><img src="img/MENU-PHOTO-6-.png" alt="" /> </a>
+                        <a href="random.html"><img src="img/MENU-PHOTO-6-.png" alt="" /> </a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+
+    <section id="about">
+        <h1 class="about-title">ABOUT</h1>
+
+        <div class="row">
+            <div class="col-8">
+                <h3>LAURA RODRIGUEZ</h3>
+                <p class="about-text">I’m a Graphic and Motion Designer. I was born and raised in
+                    Medellin, Colombia but I have lived abroad for the last 5 years.
+                    I first studied Product Design Engineering at EAFIT University
+                    (Colombia), where I developed an analytic dimension of projects
+                    and learned a lot of research tools. Then I have studied in the
+                    superior art school of Marseille (France) and “l’école multimedia”
+                    in Paris, which has given me an artistic and practical vision of
+                    multimedia projects.</p>
+            <h3>EXPERIENCE</h3>
+            <p class="about-text">Visual arts are my biggest passion in life and I do enjoy all the steps
+                involved in the creative process. I have made projects for French and
+                Colombian enterprises (I’m also ready to add more countries to this list).
+                Some companies I’ve had the pleasure to work with are “l'Etablissement
+                français du sang”, “Synchronne”, “Le Rooftop de Prado”, “PROPLAS S.A.S”,
+                “BOTANIKA” ... I can’t wait to work together!!</p>
+                    
+            </div>
+            <div class="col-4">
+                <img class="print-menu" src="img/DSC_9174_2.jpg" alt="">
+            </div>
+        </div>
+
+    </section>
 
     <footer id="footer">
         <div class="container-fluid">
@@ -307,6 +349,9 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
         </script>
     <script src="scripts.js"></script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
 </body>
 
 </html>
